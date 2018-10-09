@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="283dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/GAMES" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="308dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="BANGKAPOS.COM - Pada klasemen perolehan medali emas Asian Para Games 2018 hari kedua, Indonesia berada di urutan ke lima. Dihimpun Tribunnews.com dari aplikasi Asian Para Games 2018, Indonesia berhasil mengumpulkan tiga medali, yaitu satu medali emas, satu medali perak, dan satu medali perak. Medali emas pertama Indonesia disumbangkan tim bulutangkis beregu putra yang berhasil mengandaskan tim asal Malaysia, dengan skor 2-1. Fredy Setiawan, Dheva Anrimusthi, dan Hafizh Briliansyah/Hary Susanto sukses samakan rekor mereka sebelumnya pada Asean Para Games 2017 lalu di Kuala Lumpur, Malaysia dengan raihan emas. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</android.support.constraint.ConstraintLayout>

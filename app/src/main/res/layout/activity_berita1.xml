@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="305dp"
+        android:layout_height="287dp"
+        app:srcCompat="@drawable/malang"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="336dp"
+        android:layout_height="154dp"
+        android:text="Jakarta - Ratna Sarumpaet 'didepak' dari Badan Pemenangan Nasional (BPN) Prabowo Subianto-Sandiaga Uno setelah mengaku berbohong soal penganiayaannya. Padahal, Ratna selama ini merupakan pendukung Prabowo.  &quot;Di mana pun Prabowo berlabuh, di sanalah pula Ratna Sarumpaet bertambat,&quot; ujar Ketua DPP Hanura Inas Nasrullah Zubir kepada detikcom, Senin (8/10/2018).   Hal tersebut disampaikan Inas menyikapi pernyataan Wakil Ketua Majelis Syuro PKS Hidayat Nur Wahid (HNW) yang mengaku heran Ratna pernah masuk timses Prabowo-Sandi. Hidayat menyebut Ratna sudah terbukti mendukung Basuki T Purnama (Ahok). "
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="354dp" />
+</android.support.constraint.ConstraintLayout>
